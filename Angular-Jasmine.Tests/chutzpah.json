@@ -1,0 +1,22 @@
+﻿{
+      "Framework": "jasmine",
+  "Tests": [
+    { "Path": "Client" }
+  ],
+  "References": [
+    { "Path": "../Angular-Jasmine/Scripts/angular.min.js" },
+    { "Path": "../Angular-Jasmine/Scripts/angular-mocks.js" },
+    { "Path": "../Angular-Jasmine/Scripts/appModule.js" },
+    { "Path": "../Angular-Jasmine/Scripts/appController.js" },
+
+    {
+      "Path": "./Client",
+      "Includes": [ "*.js" ]
+    }
+
+  ],
+  "CodeCoverageIncludes": [
+    "*appModule.js",    
+    "*appController.js"
+  ]
+}
